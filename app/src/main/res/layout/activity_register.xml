@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/crema"
+
+    tools:context=".RegisterActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="109dp"
+        android:layout_marginTop="30dp"
+        app:srcCompat="@drawable/imagen1"
+        tools:layout_editor_absoluteX="83dp"
+        tools:layout_editor_absoluteY="55dp" />
+
+    <EditText
+        android:id="@+id/name"
+        android:layout_width="415dp"
+        android:layout_height="50dp"
+        android:ems="10"
+        android:inputType="text"
+        android:hint="@string/name"
+        android:textColorHint="@color/black"
+        android:textColor="@color/black"
+        android:layout_marginTop="30dp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="268dp" />
+
+    <EditText
+        android:id="@+id/lastname"
+        android:layout_width="413dp"
+        android:layout_height="41dp"
+        android:ems="10"
+        android:inputType="text"
+        android:textColorHint="@color/black"
+        android:textColor="@color/black"
+        android:hint="@string/last_name"
+        android:layout_marginTop="30dp"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="343dp"
+        tools:ignore="MissingConstraints" />
+
+    <EditText
+        android:id="@+id/emailt"
+        android:layout_width="413dp"
+        android:layout_height="42dp"
+        android:ems="10"
+        android:textColorHint="@color/black"
+        android:textColor="@color/black"
+        android:layout_marginTop="30dp"
+        android:inputType="textEmailAddress"
+        android:hint="@string/e_mail"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="400dp"
+        tools:ignore="MissingConstraints" />
+
+    <EditText
+        android:id="@+id/passwordt"
+        android:layout_width="413dp"
+        android:layout_height="49dp"
+        android:textColorHint="@color/black"
+        android:textColor="@color/black"
+        android:ems="10"
+        android:layout_marginTop="30dp"
+        android:inputType="textPassword"
+        android:hint="@string/password"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="460dp"
+        tools:ignore="MissingConstraints" />
+
+    <CheckBox
+        android:id="@+id/acept"
+        android:layout_width="362dp"
+        android:layout_height="57dp"
+        android:layout_marginTop="30dp"
+        android:textColor="@color/black"
+        android:text="@string/terms"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="522dp" />
+
+    <Button
+        android:id="@+id/sign"
+        android:layout_width="290dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="@string/antojitos"
+        android:background="@drawable/round_button"
+        android:layout_gravity="center"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="170dp"
+        tools:layout_editor_absoluteY="600dp" />
+</LinearLayout>

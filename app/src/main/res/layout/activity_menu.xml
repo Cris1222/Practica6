@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+
+    android:background="@color/crema"
+
+    tools:context=".MenuActivity">
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="match_parent"
+        android:layout_height="216dp"
+        app:srcCompat="@drawable/grupo2"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="0dp" />
+
+    <TextView
+        android:id="@+id/ourmenu"
+        android:layout_width="142dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:fontFamily="sans-serif-light"
+        android:text="@string/our_menu"
+        android:textAllCaps="true"
+        android:textSize="20sp"
+        tools:layout_editor_absoluteX="172dp"
+        tools:layout_editor_absoluteY="232dp" />
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="20dp"
+        android:columnCount="2"
+        android:paddingHorizontal="50dp">
+
+        <Button
+            android:id="@+id/Antojitos"
+            android:layout_columnWeight="1"
+            android:layout_gravity="fill_horizontal"
+            android:layout_marginRight="@dimen/menu_buttons_margin"
+            android:background="@drawable/first_gradient"
+            android:paddingHorizontal="@dimen/menu_buttons_paddings"
+            android:paddingVertical="@dimen/menu_buttons_paddings"
+            android:text="@string/antojitos" />
+
+        <Button
+            android:id="@+id/especialidades"
+            android:layout_columnWeight="1"
+            android:layout_gravity="fill_horizontal"
+            android:layout_marginRight="@dimen/menu_buttons_margin"
+            android:background="@drawable/first_gradient"
+            android:paddingHorizontal="@dimen/menu_buttons_paddings"
+            android:paddingVertical="@dimen/menu_buttons_paddings"
+            android:text="@string/especialidades" />
+
+        <Button
+            android:id="@+id/combinations"
+            android:layout_columnWeight="1"
+            android:layout_gravity="fill_horizontal"
+            android:layout_marginRight="@dimen/menu_buttons_margin"
+            android:background="@drawable/first_gradient"
+            android:paddingHorizontal="@dimen/menu_buttons_paddings"
+            android:paddingVertical="@dimen/menu_buttons_paddings"
+            android:text="@string/combinaciones" />
+
+        <Button
+            android:id="@+id/tortas"
+            android:layout_columnWeight="1"
+            android:layout_gravity="fill_horizontal"
+            android:layout_marginRight="@dimen/menu_buttons_margin"
+            android:background="@drawable/first_gradient"
+            android:paddingHorizontal="@dimen/menu_buttons_paddings"
+            android:paddingVertical="@dimen/menu_buttons_paddings"
+            android:text="@string/tortas" />
+
+        <Button
+            android:id="@+id/sopas"
+            android:layout_columnWeight="1"
+            android:layout_gravity="fill_horizontal"
+            android:layout_marginRight="@dimen/menu_buttons_margin"
+            android:background="@drawable/first_gradient"
+            android:paddingHorizontal="@dimen/menu_buttons_paddings"
+            android:paddingVertical="@dimen/menu_buttons_paddings"
+            android:text="@string/sopas" />
+
+        <Button
+            android:id="@+id/drinks"
+            android:layout_width="168dp"
+            android:layout_columnWeight="1"
+            android:layout_gravity="fill_horizontal"
+            android:layout_marginRight="@dimen/menu_buttons_margin"
+            android:background="@drawable/first_gradient"
+            android:paddingHorizontal="@dimen/menu_buttons_paddings"
+            android:paddingVertical="@dimen/menu_buttons_paddings"
+            android:text="@string/drinks" />
+    </GridLayout>
+</LinearLayout>
